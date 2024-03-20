@@ -15,4 +15,3 @@ COPY backend .
 
 COPY --from=builder /app/build /app/public
 CMD ["yarn", "start"]
-
